@@ -1,0 +1,484 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Surogou - Full width</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.ico">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+	<style>
+	/* main css */
+	.row{
+		padding: 0rem 8rem;
+		padding-bottom: 4rem;
+	}
+	.row-01{
+		padding: 0rem 8rem;
+		padding-bottom: 2rem;
+	}
+	#helf-grid .row{
+		padding-top: 3rem;
+	}
+	.span_1_of_2{
+		width: 44%;
+		padding: 1rem;
+		text-align: center;
+		color: #fff;
+	}
+	h3{
+		font-size: 1.8rem;
+		text-transform: uppercase;
+	}
+	#helf-grid .span_1_of_2:nth-child(odd){
+		background: #CCC;
+	}
+	#helf-grid .span_1_of_2:nth-child(even){
+		background: #979797;
+		/* margin-left: 0; */
+	}
+	#helf-grid .col:nth-child(1){
+		margin-left: 0;
+	}
+	#helf-grid .col:first-child{
+		margin-left: 0;
+	}
+	#quarter-grid .span_1_of_2{
+		text-align: center;
+		padding: 1rem;
+		width: 4%;
+		color: #fff;
+
+	}
+	#quarter-grid .span_1_of_2:nth-child(3){
+		background: #CCC;
+	}
+	#quarter-grid .span_1_of_4{
+		padding: 1rem;
+		text-align: center;
+		width: 21%;
+		color: #fff;
+	}
+	#quarter-grid .span_1_of_4:nth-child(odd){
+		background: #CCC;
+	}
+	#quarter-grid .span_1_of_4:nth-child(even){
+		background: #979797;
+	}
+	.span_2_of_4 {
+	    width: 49.2%;
+	    padding: .9rem;
+	    text-align: center;
+	    background: #ccc;
+			color: #fff;
+	}
+	.span_2_of_3 {
+    width: 73.13%;
+    padding: .9rem;
+    background: #979797;
+    text-align: center;
+		color: #fff;
+}
+	#third .span_1_of_3{
+		text-align: center;
+		padding: 1rem;
+		color: #fff;
+		width: 30.3%;
+	}
+	#third .span_1_of_3:nth-child(odd){
+		background: #CCC;
+	}
+	#third .span_1_of_3:nth-child(even){
+		background: #979797;
+	}
+	#third .span_1_of_4{
+		padding: 1rem;
+		width: 21%;
+		background: #CCC;
+		text-align: center;
+		color: #fff;
+	}
+	/* resposive css */
+	@media only screen and (min-width: px){}
+	@media only screen and (min-width: px){}
+	@media only screen and (min-width: 992px){
+		.span_2_of_4 {
+			width: 45.2%;
+		}
+		.span_2_of_3{
+			width: 72.13%;
+		}
+		#third .span_1_of_3{
+			width: 29.3%;
+		}
+	}
+	@media only screen and (max-width: 800px){
+		#quarter-grid .span_1_of_4{
+			width: 49%;
+			margin-left: 0;
+		}
+		#quarter-grid .span_1_of_4 {
+			width: 44%;
+
+		}
+		.span_2_of_4{
+			width: 95%;
+			margin-left: 0;
+		}
+		#quarter-grid .span_1_of_4 {
+			width: 100%;
+		}
+		.span_2_of_3{
+			width: 100%;
+			margin-left: 0;
+		}
+		#third .span_1_of_3 {
+			margin-left: 0;
+			width: 100%;
+		}
+		#third .span_1_of_4{
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 575px){
+		html{
+			font-size: 60%;
+		}
+		.
+		#page-header .row{
+			padding: 0rem 4rem;
+		}
+		#third .span_1_of_3,
+		#third .span_1_of_4,
+		.span_2_of_3,
+		.span_2_of_4,
+		#quarter-grid .span_1_of_4,
+		.span_1_of_2{
+			width: 100%;
+			margin-left: 0;
+		}
+		.row{
+			padding: 0rem 4rem;
+		}
+		#third .span_1_of_3,
+		#third .span_1_of_4,
+		.span_2_of_3,
+		.span_2_of_4,
+		#quarter-grid .span_1_of_4,
+		.span_1_of_2{
+			width: 100%;
+			margin-left: 0;
+		}
+		.page-banner {
+	top: 60%;
+}
+}
+@media only screen and (max-width: 575px){
+		.page-banner {
+	top: 42%;
+}
+}
+		/* @media only screen and (min-width: 360px){
+			.row {
+		padding: 0rem 4rem;
+		padding-bottom: 4rem;
+	}
+			#third .span_1_of_3,
+			#third .span_1_of_4,
+			.span_2_of_3,
+			.span_2_of_4,
+			#quarter-grid .span_1_of_4,
+			.span_1_of_2{
+				width: 100%;
+				margin-left: 0;
+			}
+		} */
+
+	</style>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+    <!-- header start -->
+    <section id="header">
+    <div id="top-nav">
+      <div class="row">
+        <div class="top-nav-left">
+          <ul>
+            <li><a href="#"><i class="fa fa-home fa-hh" aria-hidden="true"></i> </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> about</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> contact</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> log in </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> register</a></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <div class="large-divice-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890<span style="padding: 0 10px;">&#10072;</span></i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <!-- responsive -->
+        <div class="responsive-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890</i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- responsive -->
+      </div>
+    </div>
+    <div id="header-content">
+      <div class="row">
+        <div class="heder-content-left">
+          <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        </div>
+        <div class="heder-content-right">
+          <ul>
+            <li>
+              <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                Call Us: <br>
+                +00 (123) 456 7890
+              </div>    
+            </li>
+            <li>
+              <div class="fa-side">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="fa-content">
+                Mon. - Sat. <br>
+                08.00am - 18.00pm
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+	<!--  -->
+	<section id="page-header">
+		<div class="PAGE-NAV">
+			<div class="row">
+				<div class="PAGE_NAV">
+					<ul>
+						<li><a href="index.html"  class="">Home</a></li>
+						<li class=""><a href="#"><i class="fa fa-caret-down active" aria-hidden="true">pages </i></a>
+							<div class="sub-nav-01">
+								<ul>
+									<li class="active-background"><a href="Gallery.html">gallery</a></li>
+									<li><a href="Full width.html">full width</a></li>
+									<li><a href="side bar left.html">sidebar left</a></li>
+									<li><a href="side bar right.html">sidebar right</a></li>
+									<li><a href="basic-grid.html">basic grid</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class=""><a href="#"><i class="fa fa-caret-down">drop down</i></a>
+							<div class="sub-nav-01" id="SubNav">
+								<ul>
+									<li><a href="#">drop one</a></li>
+									<li class="hover-me"><a href="#">drop two<i class="fa fa-caret-right" style="float:right"></i></a>
+										<div class="sub-nav-02">
+											<ul>
+												<li><a href="#">drop 1</a></li>
+												<li><a href="#">drop 2</a></li>
+												<li><a href="#">drop 3</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="#">drop three</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">link text</a></li>
+						<li><a href="#">link text</a>
+						<li><a href="#">LONG LINK TEXT</a>
+					</ul>
+					</div>
+
+					<div class="mobile-menu" style="margin-top:40px;">
+						<span onclick="opneNav()" class="OpenNAV">&#9776;</span>
+						<div id="mobileNav" class="overlay">
+								<a href="javascript:void" class="btn-close" onclick="closeNav()">&times;</a>
+								<div class="overlay-content">
+									<a onclick="closeNav()" href="index.html">HOME</a>
+									<a onclick="closeNav()" class="active-background" href="Gallery.html">gallery</a>
+									<a onclick="closeNav()" href="Full width.html">full width</a>
+									<a onclick="closeNav()" href="side bar left.html">sidebar left</a>
+									<a onclick="closeNav()" href="side bar right.html">sidebar right</a>
+									<a onclick="closeNav()" href="basic-grid.html">basic grid</a>
+									<a onclick="closeNav()" href="#">drop one</a>
+									<a onclick="closeNav()" href="#">drop two</a>
+									<a onclick="closeNav()" href="#">drop three</a>
+					</div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="page-banner">
+			<div class="row">
+				<h2>Full width </h2>
+				<a href="#">HOME  >></a>
+				<a href="#">LOREM  >></a>
+				<a href="#">IPSUM  >></a>
+				<a href="#" class="active-02">DOLOR </a>
+			</div>
+		</div>
+	</section>
+	<!-- helf grid -->
+	<secion id="helf-grid">
+		<div class="row row-01">
+			<h3>helf </h3>
+		</div>
+			<div class="row">
+			<div class="col span_1_of_2 box">1/2</div>
+			<div class="col span_1_of_2 box">1/2</div>
+		</div>
+	</secion>
+	<!-- quarter -->
+	<section id="quarter-grid">
+		<div class="row row-01">
+		  <h3>QUARTER</h3>
+		</div>
+		<div class="row">
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_1_of_4 box">1/4</div>
+		</div>
+		<div class="row">
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_2_of_4 box">1/4</div>
+		</div>
+		<div class="row">
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_2_of_3 box">1/4</div>
+		</div>
+	</section>
+	<section id="third">
+		<div class="row row-01">
+			<h3>third</h3>
+		</div>
+		<div class="row">
+			<div class="col span_1_of_3 box">1/3</div>
+			<div class="col span_1_of_3 box">1/3</div>
+			<div class="col span_1_of_3 box">1/3</div>
+		</div>
+		<div class="row">
+			<div class="col span_1_of_4 box">1/4</div>
+			<div class="col span_2_of_3 box">1/4</div>
+		</div>
+	</section>
+<section id="contact">
+    <div class="row">
+      <h2>Interdum Pulvinar Aliquam</h2>
+      <p class="little-title">
+        in urna proin luctus ligula eget mauris quisque congue malesuada
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Give Us A Call:</h4>
+                +8801717171044
+              </div>    
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Send Us A Mail:</h4>
+                shovonraj275@gmail.com
+              </div> 
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+               <h4>Come Visit Us:</h4>
+                Directions to <a href="" style="color:#F7A804;">our location</a>
+              </div> 
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <!-- about area -->
+  <section id="about">
+    <div class="row">
+      <div class="col span_1_of_3">
+        <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        <p class="about-detail">
+          Sem nam et erat nec eros elementum gravida proin bibendum diam sed congue sagittis metus risus rutrum mauris sed euismod nisl purus vel leo phasellus nunc erat cursus aliquet […]
+        </p>
+          <div class="social-link">
+            <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-discord"></i></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Massa Hendrerit Bibendum</h4>
+        <div class="work-list">
+          <a href="#">Tincidunt vel vulputate egestas</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Leo sed porttitor accumsan arcu</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Aenean ac urna et leo posuere</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Pretium suspendisse ac elit ut</a>
+        </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Etiam Auctor Dignissim</h4>
+        <p>Leo integer sem nisl mollis ut ornare eu lobortis eget ante mauris tempor.</p>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+     <a href="#" class="btn "> Submit</a>
+      </div>
+    </div>
+  </section>
+  <!-- about area -->
+  <!-- footer area -->
+  <section id="footer"> 
+    <div class="row">
+      <div class="footer-left">
+        Copyright © 2020 - All Rights Reserved - Domain Name
+      </div>
+      <div class="footer-right">
+        Template by OS Templates
+      </div>
+    </div>
+  </section>
+	<script src="resources/js/main.js"></script>
+	</body>
+</html>

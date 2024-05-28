@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Surogou</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.ico">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <!-- header start -->
+    <section id="header">
+    <div id="top-nav">
+      <div class="row">
+        <div class="top-nav-left">
+          <ul>
+            <li><a href="#"><i class="fa fa-home fa-hh" aria-hidden="true"></i> </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> about</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> contact</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> log in </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> register</a></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <div class="large-divice-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890<span style="padding: 0 10px;">&#10072;</span></i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <!-- responsive -->
+        <div class="responsive-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890</i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- responsive -->
+      </div>
+    </div>
+    <div id="header-content">
+      <div class="row">
+        <div class="heder-content-left">
+          <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        </div>
+        <div class="heder-content-right">
+          <ul>
+            <li>
+              <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                Call Us: <br>
+                +00 (123) 456 7890
+              </div>    
+            </li>
+            <li>
+              <div class="fa-side">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="fa-content">
+                Mon. - Sat. <br>
+                08.00am - 18.00pm
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+    <!-- header finish -->
+  <section id="header-banner-area">
+    <div class="row">
+      <div class="Nav">
+        <div class="nav" >
+          <ul>
+            <li><a href="index.html"  class="active">Home</a></li>
+            <li class="active"><a href="#"><i class="fa fa-caret-down" aria-hidden="true">pages </i></a>
+              <div class="sub-nav-01">
+                <ul>
+                  <li><a href="Gallery.html">gallery</a></li>
+                  <li><a href="Full width.html">full width</a></li>
+                  <li><a href="side bar left.html">sidebar left</a></li>
+                  <li><a href="side bar right.html">sidebar right</a></li>
+                  <li><a href="basic-grid.html">basic grid</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class=""><a href="#"><i class="fa fa-caret-down">drop down</i></a>
+              <div class="sub-nav-01" id="SubNav">
+                <ul>
+                  <li><a href="#">drop one</a></li>
+                  <li class="hover-me"><a href="#">drop two<i class="fa fa-caret-right" style="float:right"></i></a>
+                    <div class="sub-nav-02">
+                      <ul>
+                        <li><a href="#">drop 1</a></li>
+                        <li><a href="#">drop 2</a></li>
+                        <li><a href="#">drop 3</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">drop three</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">link text</a></li>
+            <li><a href="#">link text</a>
+            <li><a href="#">LONG LINK TEXT/a>
+          </ul>
+          </div>
+          <div class="mobile-menu">
+            <span onclick="opneNav()" class="OpenNAV">&#9776;</span>
+            <div id="mobileNav" class="overlay">
+                <a href="javascript:void" class="btn-close" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a onclick="closeNav()" href="#">HOME</a>
+                  <a onclick="closeNav()" href="Gallery.html">gallery</a>
+                  <a onclick="closeNav()" href="Full width.html">full width</a>
+                  <a onclick="closeNav()" href="side bar left.html">sidebar left</a>
+                  <a onclick="closeNav()" href="side bar right.html">sidebar right</a>
+                  <a onclick="closeNav()" href="basic-grid.html">basic grid</a>
+                  <a onclick="closeNav()" href="#">drop one</a>
+                  <a onclick="closeNav()" href="#">drop two</a>
+                  <a onclick="closeNav()" href="#">drop three</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner-area">
+      <div class="row">
+        <h3>AENEAN AC NISL VITAE LOBORTIS</h3>
+        <h1>Ultricies Fusce Sed Ligula</h1>
+        <p class="little-title">Sem suscipit mollis praesent volutpat placerat nisl suspendisse</p>
+        <a href="" class="btn">POTENTI NUNC NEC URNA</a>
+      </div>
+    </div>
+  </section>
+  <!-- gallery section -->
+  <section id="gallery">
+    <div class="row">
+      <h3>Quis Est Gravida Facilisis</h3>
+      <p class="little-title">Mauris tempor aenean pretium sem et luctus semper justo velit.</p>
+    </div>
+   <div class="row">
+        <div class="col span_1_of_3 box">
+          <div class="image">
+            <img src="resources/img/320x220.png" alt="gallery img">
+            <div class="img-title">
+              <h2>dapibus Pede Tristique</h2>
+              <p>Congue quam erat et dui morbi at sapien non enim balndit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3 box">
+          <div class="image">
+            <img src="resources/img/320x220.png" alt="gallery img">
+            <div class="img-title">
+             <h2>Interdum Morbi Posuere</h2>
+             <p>Etiam conseqat arcu accumsan commodo luctus nibh fringilla.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col span_1_of_3 box">
+        <div class="image">
+          <img src="resources/img/320x220.png" alt="gallery img">
+          <div class="img-title">
+            <h2>Erat Volurpat Integer</h2>
+            <p>posuere vulputate leo nullam eu tellus phasellus aliquam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+        <div class="image">
+          <img src="resources/img/320x220.png" alt="gallery img">
+          <div class="img-title">
+           <h2>Erat Volutpat Integer</h2> 
+           <p>Posuere vulputate leo nullam ey tellus phasellus aliquam.</p>
+         </div>
+       </div>
+     </div>
+     <div class="col span_1_of_3 box">
+      <div class="image">
+        <img src="resources/img/320x220.png" alt="gallery img">
+        <div class="img-title">
+         <h2>Tellus Ut Libero Etiam</h2>
+         <p>Ut metus quisque pretium nunc fermentum volutpat velit sed.</p>
+       </div>
+     </div>
+   </div>
+   <div class="col span_1_of_3 box">
+    <div class="image">
+      <img src="resources/img/320x220.png" alt="gallery img">
+      <div class="img-title">
+        <h2>Dictum Bibendum Velit</h2>
+        <p>Nulla iaculis pellentesque nunc felis tristique vel ultrices</p>
+      </div>
+    </div>
+  </div>   
+  </section>
+  <!-- gallery section -->
+  <!-- Service section -->
+  <section id="service">
+    <div class="row">
+      <h3>Vitae Congue At Urna Suspendisse</h3>
+      <p class="little-title">
+        Vestibulum nisi ut lectus proin lectus ante fermentum sed
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+         <a href="#"><i class="fas fa-eraser"></i></a>
+         <h4>Bibendum Rutrum Congue</h4>
+         <p>Tortor proin sagittis mauris ac odio morbi ut massa donec suscipit eros ut justo etiam non orci nullam at tortor maecenas eu.</p>
+      </div>
+      <div class="col span_1_of_3 box">
+        <a href="#"><i class="fas fa-dolly-flatbed"></i></a>
+        <h4>Neque Lacinia Ullamcorper</h4>
+        <p>Posuere etiam in arcu nam sodales euismod tellus quisque nunc mauris vehicula in ultrices tempor imperdiet vitae sapien morbi.</p>
+      </div>
+      <div class="col span_1_of_3 box">
+        <a href="#"><i class="fas fa-text-width"></i></a>
+        <h4>Accumsan Dignissim Libero</h4>
+        <p>Suspendisse potenti vestibulum mattis suspendisse potenti praesent nec ligula ut non ante sit amet est luctus dictum duis magna.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Service section -->
+  <!-- teem section -->
+  <section id="teem">
+    <div class="row">
+      <h3>Mauris Tincidunt Eu Tincidunt</h3>
+      <p class="little-title">
+        In egestas vitae turpis sed velit urna sollicitudin ut euismod
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_2 box">
+        <img src="resources/img/320x220.png" alt="Teem member">
+        <div class="description-box">
+          Nec hendrerit vel velit ut sodales feugiat nulla proin porttitor lacus eget mi quisque in eros ut porttitor dapibus enim duis mollis accumsan purus etiam quis lorem hendrerit.
+        </div>
+        <div class="name-title">
+          Ezaz Ahamed <br> Web Developer
+        </div>
+      </div>
+      <div class="col span_1_of_2 box">
+        <img src="resources/img/320x220.png" alt="Teem member">
+        <div class="description-box">
+          Vestibulum volutpat ut consequat tincidunt tortor nulla enim morbi id ante in felis iaculis faucibus duis nibh diam tristique scelerisque viverra at vulputate quis lacus donec.
+        </div>
+        <div class="name-title">
+          Shati Akter <br>Web designer 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- teem section -->
+  <!-- recent-work -->
+  <section id="recent-work">
+    <div class="row">
+      <h3>Ligula Mi Fringilla Vel Hendrerit</h3>
+      <p class="little-title">
+        Et malesuada vitae risus in a enim in metus ultrices tristique
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+        <div class="backgroun-images">
+          <img src="resources\img\320x220.png" alt="">
+          <div class="images-text"> 06</div>
+          <div class="images-text-02"> apr</div>
+        </div>
+        <h4>Integer Aliquet Dignissim Tellus</h4>
+        <span class="user user-padding"><a href=""><i class="fa fa-user" style="padding-right:8px" aria-hidden="true"></i>Admin</a></span><span style="padding: 0 10px;">&#10072;</span><span class="user"><a href=""><i class="fa fa-tag" style="padding-right:8px" aria-hidden="true"></i> tag 1, tag 2</a></span>
+        <p>Vestibulum consequat praesent bibendum vehicula mi sed fermentum erat sit amet imperdiet dictum enim lectus […]</p>
+        <div class="Btn">
+          <a href="" class="btn btn-readMore">READ MORE </a>
+        </div>
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="backgroun-images">
+          <img src="resources\img\320x220.png" alt="">
+          <div class="images-text"> 05</div>
+          <div class="images-text-02"> apr</div>
+        </div>
+        <h4>Tortor Tempus Metus Neque</h4>
+        <span class="user user-padding"><a href=""><i class="fa fa-user" style="padding-right:8px" aria-hidden="true"></i>Admin</a></span><span style="padding: 0 10px;">&#10072;</span><span class="user "><a href=""><i class="fa fa-tag" style="padding-right:8px" aria-hidden="true"></i>tag 1, tag 2</a></span>
+        <p>Vel elit integer in orci vitae lacus ultricies mattis suspendisse congue sapien vel massa posuere <br> lacinia […]</p>
+      <div class="Btn">
+          <a href="" class="btn btn-readMore">READ MORE </a>
+      </div>
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="backgroun-images">
+          <img src="resources\img\320x220.png" alt="">
+          <div class="images-text"> 04</div>
+          <div class="images-text-02"> apr</div>
+        </div>
+        <h4>Phasellus A Ipsum Eget Odio</h4>
+        <span class="user user-padding"><a href=""><i class="fa fa-user" style="padding-right:8px" aria-hidden="true"></i>Admin</a></span><span style="padding: 0 10px;">&#10072;</span><span class="user"><a href=""><i class="fa fa-tag" style="padding-right:8px" aria-hidden="true"></i>tag 1, tag 2</a></span>
+        <p>Fringilla tincidunt proin velit aliquam erat volutpat etiam elementum eros ut ante fusce a lacus ac <br>neque […]</p>
+      <div class="Btn">
+          <a href="" class="btn btn-readMore">READ MORE </a>
+      </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- recent-work -->
+  <!-- contact -->
+  <section id="contact">
+    <div class="row">
+      <h2>Interdum Pulvinar Aliquam</h2>
+      <p class="little-title">
+        in urna proin luctus ligula eget mauris quisque congue malesuada
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Give Us A Call:</h4>
+                +8801717171044
+              </div>    
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Send Us A Mail:</h4>
+                shovonraj275@gmail.com
+              </div> 
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+               <h4>Come Visit Us:</h4>
+                Directions to <a href="" style="color:#F7A804;">our location</a>
+              </div> 
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <!-- about area -->
+  <section id="about">
+    <div class="row">
+      <div class="col span_1_of_3">
+        <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        <p class="about-detail">
+          Sem nam et erat nec eros elementum gravida proin bibendum diam sed congue sagittis metus risus rutrum mauris sed euismod nisl purus vel leo phasellus nunc erat cursus aliquet […]
+        </p>
+          <div class="social-link">
+            <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-discord"></i></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Massa Hendrerit Bibendum</h4>
+        <div class="work-list">
+          <a href="#">Tincidunt vel vulputate egestas</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Leo sed porttitor accumsan arcu</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Aenean ac urna et leo posuere</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Pretium suspendisse ac elit ut</a>
+        </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Etiam Auctor Dignissim</h4>
+        <p>Leo integer sem nisl mollis ut ornare eu lobortis eget ante mauris tempor.</p>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+     <a href="#" class="btn "> Submit</a>
+      </div>
+    </div>
+  </section>
+  <!-- about area -->
+  <!-- footer area -->
+  <section id="footer"> 
+    <div class="row">
+      <div class="footer-left">
+        Copyright © 2020 - All Rights Reserved - Domain Name
+      </div>
+      <div class="footer-right">
+        Template by OS Templates
+      </div>
+    </div>
+  </section>
+  <!-- footer area -->
+
+
+   <script src="resources/js/main.js"></script>
+   <script src="vendors/js/html5shiv.min.js"></script>
+   <script src="vendors/js/respond.min.js"></script>
+   <script src="vendors/js/selectivizr-min.js"></script>
+  </body>
+</html>

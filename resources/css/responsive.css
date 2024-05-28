@@ -1,0 +1,280 @@
+/*large divive*/
+@media only screen and (max-width: 1200px){
+	#contact .span_1_of_3 {
+		width: 25.26%;
+		padding: 2rem;
+		background: #FFF;
+		margin: 0rem 2rem;
+	}
+	.fa-content {
+		float: left;
+		padding-left: 1.5rem;
+		font-size: 1.4rem;
+		padding-top: 1.4rem;
+	}
+}
+/* divive*/
+@media only screen and (max-width: 992px){
+
+	#top-nav .top-nav-left{
+		float: none;
+		overflow: hidden;
+	}
+
+	#top-nav .top-nav-right{
+		
+	}
+
+	#top-nav .top-nav-right ul li{
+		
+	}
+
+	.large-divice-top-nav-right{
+		display: none;
+	}
+	.responsive-top-nav-right{
+		display: block;
+	}
+	.responsive-top-nav-right ul li{
+		float: none;
+	}
+	#top-nav .top-nav-right {
+	/* float: right; */
+	float: none;
+	margin-top: 5px;
+	}
+	.nav,
+	.PAGE_NAV{
+		display: none;
+	}
+	.mobile-menu span{
+		display: block;
+	}
+	#recent-work .images-text-02{
+		top:20%;
+	}
+	#contact .span_1_of_3{
+		width: 90% !important;
+		margin-top: 1rem;
+		margin-left: 0;
+	}
+	#contact .span_1_of_3:nth-child(1){
+		margin-top: 0;
+	}
+	#about .col .fab {
+		font-size: 1.5rem;
+		margin: 0 .2rem;
+		background: #359BD5;
+		color: #FFFF;
+		padding: 1rem;
+	}
+	#footer{
+
+	}
+
+	
+	#footer{}
+}
+/* divive*/
+
+/* divive*/
+@media only screen and (max-width: 768px){
+
+	.fl-right-img,
+	.fl-left-img{
+		display: none;
+	}
+	#main-content .fl-left-side {
+	/*float: left;*/
+	width: 100%;
+}
+	#main-content .fl-right-side {
+	/*float: right;*/
+	width: 100%;
+	margin-top: 0rem;
+}
+ 	.span_1_of_3{
+ 		width: 100% !important;
+ 		margin-top: 1rem;
+ 		margin-left: 0;
+ 	}
+ 	.span_1_of_3:nth-child(1){
+ 		margin-top: 0;
+ 	}
+ 	.span_1_of_2{
+ 		width: 100% !important;
+ 		margin-top: 1rem;
+ 		margin-left: 0;
+ 	}
+ 	.span_1_of_2:nth-child(1){
+ 		margin-top: 0;
+ 	}
+	#recent-work .images-text-02 {
+	position: absolute;
+	top: 11% !important;
+	left: 5%;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	padding: .3rem .5em;
+	font-size: 2rem;
+} 
+	.gallery-area .row {
+		/* padding: .7rem 16rem; */
+	}
+	.span_1_of_4 {
+		width: 48%;
+	}
+	.span_1_of_4:nth-child(3){
+		margin-left: 0;
+	}
+	.large-device{
+		display: none;
+	}
+	.small-device{
+		display: block;
+	}
+	.small-device .row{
+	    padding-top: 30px;
+	  }
+}
+/* divive*/
+
+/* divive*/
+@media only screen and (max-width: 575px){
+
+	.row {
+		padding: 1rem 2rem;
+	}
+
+	#about .col:nth-child(1) p{
+		padding-top: 2rem;
+		padding-bottom: 0;
+	}
+	#about .col:nth-child(2),#about .col:nth-child(1){
+
+	}
+	#about .row {
+		padding: 4rem;
+	}
+	#header-banner-area{
+		padding: 0rem 0;
+		background-image: url(01.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		height: 70vh;
+		width: 100%;
+		position: relative;
+	}
+	.banner-area h3{
+		font-size: 2rem;
+		color: #fff;
+		margin-bottom: -.5rem;
+		letter-spacing: .3rem;
+	}
+	#header-banner-area{
+	padding: 0rem 0;
+	background-image: url(01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 70vh;
+	width: 100%;
+	position: relative;
+}
+
+.banner-area h3{
+	font-size: 2rem;
+	color: #fff;
+	margin-bottom: -.5rem;
+	letter-spacing: .3rem;
+}
+
+.banner-area h3{
+	font-size: 2rem;
+	color: #fff;
+	margin-bottom: .5rem;
+}
+	.banner-area h1{
+		font-size: 3rem;
+		color: #fff;
+		margin-bottom: .5rem;
+	}
+
+	#footer .footer-left{
+		/* float: left; */
+
+	}
+	#header-content .row {
+		padding: 4rem 2rem !important;
+	}
+	#header-banner-area .row:last-child {
+		padding: 0px 4rem;
+	}
+
+	.banner-area {
+		position: absolute;
+		top: 15%;
+	}
+	#footer .footer-right{
+		 float: left; 
+		margin-top: .7rem;
+	}
+	#recent-work .images-text-02 {
+		position: absolute;
+		top: 15% !important;
+		left: 5%;
+		background: #000;
+		color: #FFF;
+		text-align: center;
+		padding: .3rem .5em;
+		font-size: 2rem;
+	}
+	.span_1_of_4 {
+		width: 100%;
+	}
+	.span_1_of_4:nth-child(2),
+	.span_1_of_4:nth-child(3),
+	.span_1_of_4:nth-child(4){
+		margin-left: 0;
+	}
+	#teem img {
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+	}
+	section#main-gallery {
+		padding: 2rem 5rem;
+	}
+	
+}
+/* divive*/
+
+/* divive*/
+@media only screen and (max-width: 414px){
+	html {
+		font-size: 54.5%;
+	}
+	#recent-work .images-text-02 {
+	position: absolute;
+	top: 17% !important;
+	left: 5%;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	padding: .3rem .5em;
+	font-size: 2rem;
+}
+}
+/* divive*/
+
+@media only screen and (max-width: 360px){
+	.gallery-area .row {
+		 padding: 0 !important; 
+	}
+}
+
+
+
+/* divive*/

@@ -1,0 +1,508 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Surogou - Sidebar - left</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/uikit.min.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.ico">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+	<style>
+	/* main css */
+	#content .row,
+	#comments .row,
+	#message .row,
+	#table .row{
+	padding: 0rem 0rem;
+	}
+	#main-content .fl-left-side {
+		float: left;
+		width: 25%;
+	}
+	#main-content .fl-right-side {
+		float: right;
+		width: 75%;
+		margin-top: 6.5rem;
+	}
+	#content .sub-content-02 .fl-right-content{
+		width: 80% !important;
+	}
+	#content .sub-content-02 .fl-left-img{
+		width: 20%;
+	}
+	
+}
+	/* respsive css */
+	@media only screen and (min-width: 992px){
+
+	}
+	@media only screen and (min-width: 991px){
+		/* .fl-right-content-md{
+			display: block;
+		}
+		.fl-right-content-lg{
+			display: none;
+		} */
+		#content .sub-content-02 .fl-right-content {
+	width: 100%;
+}
+	}
+	@media only screen and (max-width: 768px){
+		#main-content .fl-left-side {
+	/* float: left; */
+	width: 100% !important;
+}
+#main-content .fl-right-side {
+	/* float: right; */
+	width: 100%;
+	/* margin-top: 6.5rem; */
+}
+.fl-left-side,
+.fl-right-side{
+				float: none;
+				width: 100% !important;
+			}
+			#content .sub-content-02 .fl-right-content {
+	width: 100% !important;
+}
+#content .sub-content-01 .fl-left-content {
+	width: 100%;
+	/* float: left; */
+}
+.col-02{
+				margin: 0;
+			}
+	}
+	@media only screen and (min-width:450px){
+
+	}
+	</style>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+    <!-- header start -->
+    <section id="header">
+    <div id="top-nav">
+      <div class="row">
+        <div class="top-nav-left">
+          <ul>
+            <li><a href="#"><i class="fa fa-home fa-hh" aria-hidden="true"></i> </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> about</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> contact</a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> log in </a></li>
+            <li><a href="#"><span style="padding: 0 10px;">&#10072;</span> register</a></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <div class="large-divice-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890<span style="padding: 0 10px;">&#10072;</span></i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- large-divice -->
+        <!-- responsive -->
+        <div class="responsive-top-nav-right top-nav-right">
+          <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"> +00 (123) 456 7890</i></li>
+            <li><i class="fa fa-envelope" aria-hidden="true">INFO@DOMAIN.COM</i></li>
+          </ul>
+        </div>
+        <!-- responsive -->
+      </div>
+    </div>
+    <div id="header-content">
+      <div class="row">
+        <div class="heder-content-left">
+          <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        </div>
+        <div class="heder-content-right">
+          <ul>
+            <li>
+              <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                Call Us: <br>
+                +00 (123) 456 7890
+              </div>    
+            </li>
+            <li>
+              <div class="fa-side">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="fa-content">
+                Mon. - Sat. <br>
+                08.00am - 18.00pm
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+	<!--  -->
+	<section id="page-header">
+		<div class="PAGE-NAV">
+			<div class="row">
+				<div class="PAGE_NAV">
+					<ul>
+						<li><a href="index.html"  class="">Home</a></li>
+						<li class=""><a href="#"><i class="fa fa-caret-down active" aria-hidden="true">pages </i></a>
+							<div class="sub-nav-01">
+								<ul>
+									<li class="active-background"><a href="Gallery.html">gallery</a></li>
+									<li><a href="Full width.html">full width</a></li>
+									<li><a href="side bar left.html">sidebar left</a></li>
+									<li><a href="side bar right.html">sidebar right</a></li>
+									<li><a href="basic-grid.html">basic grid</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class=""><a href="#"><i class="fa fa-caret-down">drop down</i></a>
+							<div class="sub-nav-01" id="SubNav">
+								<ul>
+									<li><a href="#">drop one</a></li>
+									<li class="hover-me"><a href="#">drop two<i class="fa fa-caret-right" style="float:right"></i></a>
+										<div class="sub-nav-02">
+											<ul>
+												<li><a href="#">drop 1</a></li>
+												<li><a href="#">drop 2</a></li>
+												<li><a href="#">drop 3</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="#">drop three</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="#">link text</a></li>
+						<li><a href="#">link text</a>
+						<li><a href="#">LONG LINK TEXT</a>
+					</ul>
+					</div>
+
+					<div class="mobile-menu" style="margin-top:40px;">
+						<span onclick="opneNav()" class="OpenNAV">&#9776;</span>
+						<div id="mobileNav" class="overlay">
+								<a href="javascript:void" class="btn-close" onclick="closeNav()">&times;</a>
+								<div class="overlay-content">
+									<a onclick="closeNav()" href="index.html">HOME</a>
+									<a onclick="closeNav()" class="active-background" href="Gallery.html">gallery</a>
+									<a onclick="closeNav()" href="Full width.html">full width</a>
+									<a onclick="closeNav()" href="side bar left.html">sidebar left</a>
+									<a onclick="closeNav()" href="side bar right.html">sidebar right</a>
+									<a onclick="closeNav()" href="basic-grid.html">basic grid</a>
+									<a onclick="closeNav()" href="#">drop one</a>
+									<a onclick="closeNav()" href="#">drop two</a>
+									<a onclick="closeNav()" href="#">drop three</a>
+					</div>
+				</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="page-banner">
+			<div class="row">
+				<h2> SIDEBAR LEFT </h2>
+				<a href="#">HOME  >></a>
+				<a href="#">LOREM  >></a>
+				<a href="#">IPSUM  >></a>
+				<a href="#" class="active-02">DOLOR </a>
+			</div>
+		</div>
+	</section>
+		<section id="main-content">
+		<div class="row">
+			<div class="fl-left-side">
+				<h3>Lorem ipsum dolor</h3>
+			<div class="list">
+				<p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 1</a></p>
+				<p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 1</a></p>
+				<p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 1</a></p>
+				<blockquote><p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 2</a></p></blockquote>
+				<blockquote><p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 2</a></p></blockquote>
+				<p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 1</a></p>
+				<blockquote><p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 2</a></p></blockquote>
+				<blockquote><p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 2</a></p></blockquote>
+				<blockquote><blockquote><p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 3</a></p></blockquote></blockquote>
+
+				<p class="border-bottom-p"><a href="#"><i class="fa fa-angle-double-right"></i>Navigation - Level 1</a></p>
+			</div>
+				<h3>LOREM IPSUM <br> DOLOR</h3>
+						<p>
+							Full Name <br>
+							Address Line 1 	<br>
+							Address Line 2 <br>
+							Town/City <br>
+								Postcode/Zip <br>
+						</p>
+							<p>
+								Tel: xxxx xxxx xxxxxx <br>
+								Email: <a href="" style="color:#F7A804;">contact@domain.com</a> <br>
+							</p>
+							<h3>LOREM IPSUM <br> DOLOR</h3>
+						<p>
+							Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.
+						</p>
+						<ul>
+							<li><a href="#">Lorem ipsum dolor sit</a></li>
+							<li>Etiam vel sapien et</li>
+							<li><a href="#">Etiam vel sapien et</a></li>
+						</ul>
+						<p>
+							Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.
+						</p>
+						<p><a href="#" style="color:#F7A804;">Continue Reading »</a></p>
+
+
+
+
+			</div>
+			<!-- ******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************* -->
+			<div class="fl-right-side">
+				<section id="content">
+					<div class="row">
+							<h3> 〈 H1〉  TO 〈 H6 〉 - HEADLINE COLOEUR AND SIZE ALL THE SAME</h3>
+					</div>
+					<div class="row">
+						<div class="sub-content-01">
+							<div class="fl-left-content">
+								<p>Aliquatjosto quisque nam consquat dolireet vest oma partur scetur portoris nam.Metadipisicing egetg facilis elit sagittls felisi eger id justo maurisus convallicitur.</p><br>
+								<P>Dapiensociis <a href="">temper donec auctortortis cumsan </a> et curabitur lorem loborttis leo.Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem</P>
+							</div>
+							<div class="fl-right-img">
+								<img src="resources\img\imgr.gif" alt="images right">
+							</div>
+						</div>
+					</div>
+							<div class="row">
+								<div class="sub-content-02">
+									<div class="fl-left-img">
+										<img src="resources\img\imgl.gif" alt="images left">
+									</div>
+									<div class="fl-right-content fl-right-content-lg" >
+										<p>This is W3C compliant free website template form <a href="">OS Template </a>.For full terms of this template please read our <a href="">website template licence </a>.</p>
+										<p>
+											You can use and modify the template for both parsonal commercial use.You must keep all copyright information and credit link in the template and associated files.For more website templates visit our <a href="">free website templates </a>section.</p>
+									</div>
+									<!-- <div class="fl-right-content fl-right-content-md" style="width:100%">
+										<p>This is W3C compliant free website template form <a href="">OS Template </a>.For full terms of this template please read our <a href="">website template licence </a>.</p>
+										<p>
+											You can use and modify the template for both parsonal commercial use.You must keep all copyright information and credit link in the template and associated files.For more website templates visit our <a href="">free website templates </a>section.</p>
+									</div> -->
+								</div>
+							</div>
+				</section>
+
+
+				<section id="table">
+					<div class="row">
+						<div class="content-table">
+							<h1>TABLE(S)</h1>
+							<table id="table-01" style="border-collapse:collapse;width:100%">
+								<tr style="background:#373737;color:FFFFFF">
+									<th>Header 1</th>
+									<th>Header 2</th>
+									<th>Header 3</th>
+									<th>Header 4</th>
+
+								</tr>
+								<tr>
+									<td><a href="">Value 1</a> </td>
+									<td>Value 2</td>
+									<td>Value 3</td>
+									<td>Value 4</td>
+								</tr>
+								<tr>
+									<td>Value 5</td>
+									<td>Value 6</td>
+									<td>Value 7</td>
+									<td><a href="">Value 8</a> </td>
+								</tr>
+								<tr>
+									<td>Value 9</td>
+									<td>Value 10</td>
+									<td>Value 11</td>
+									<td>Value 12</td>
+								</tr>
+								<tr>
+									<td>Value 13</td>
+									<td><a href="">Value 14</a> </td>
+									<td>Value 15</td>
+									<td>Value 16</td>
+								</tr>
+
+
+							</table>
+						</div>
+					</div>
+				</section>
+				<section id="comments">
+					<div class="row">
+						<h1>COMMENTS</h1>
+						<div class="comments-area">
+							<div class="single-comments">
+								<a href=""><i class="fa fa-user" style="font-size:30px; color:#333333;"></i></a>
+									By <a href="">A Name </a>
+										<p class="title">
+												Friday 6<sup>th</sup> April 2045 @08:15:00
+										</p>
+												This is an example of a comment made on a post.You  can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or share what you are thinking .
+										</p>
+							</div>
+							<div class="single-comments">
+								<a href=""><i class="fa fa-user" style="font-size:30px; color:#333333;"></i></a>
+								By <a href="">A Name </a>
+									<p class="title">
+											Friday 6<sup>th</sup> April 2045 @08:15:00
+									</p>
+										<p>
+												This is an example of a comment made on a post.You  can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or share what you are thinking .
+										</p>
+							</div>
+							<div class="single-comments">
+								<a href=""><i class="fa fa-user" style="font-size:30px; color:#333333;"></i></a>
+								By <a href="">A Name </a>
+									<p class="title">
+											Friday 6<sup>th</sup> April 2045 @08:15:00
+									</p>
+										<p>
+												This is an example of a comment made on a post.You  can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or share what you are thinking .
+										</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="message">
+					<div class="row">
+						<h3>WRITE A COMMENT</h3>
+						<div class="col span_1_of_3 box">
+							Name <span class="message-span">*</span> <br><input type="text" name="" value="" required>
+						</div>
+						<div class="col span_1_of_3 box">
+							Email <span class="message-span">*</span> <br><input type="text" name="" value="">
+						</div>
+						<div class="col span_1_of_3 box">
+							Web side <br><input type="text" name="" value="">
+						</div>
+						<div class="col col-02">
+							Your Comment
+							<textarea name="name" rows="10" cols="140" style="width:100%;"></textarea>
+						</div>
+						<div class="col button-col">
+							<a href="" class="btn">Submit form</a>
+							<a href="" class="btn">Reset form</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		</section>
+	<section id="contact">
+    <div class="row">
+      <h2>Interdum Pulvinar Aliquam</h2>
+      <p class="little-title">
+        in urna proin luctus ligula eget mauris quisque congue malesuada
+      </p>
+    </div>
+    <div class="row">
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Give Us A Call:</h4>
+                +8801717171044
+              </div>    
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+                <h4>Send Us A Mail:</h4>
+                shovonraj275@gmail.com
+              </div> 
+      </div>
+      <div class="col span_1_of_3 box">
+        <div class="fa-side">
+                <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+              </div>
+              <div class="fa-content">
+               <h4>Come Visit Us:</h4>
+                Directions to <a href="" style="color:#F7A804;">our location</a>
+              </div> 
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <!-- about area -->
+  <section id="about">
+    <div class="row">
+      <div class="col span_1_of_3">
+        <a href="index.html">Suro<sub style="color:#F7A804">gou</sub></a>
+        <p class="about-detail">
+          Sem nam et erat nec eros elementum gravida proin bibendum diam sed congue sagittis metus risus rutrum mauris sed euismod nisl purus vel leo phasellus nunc erat cursus aliquet […]
+        </p>
+          <div class="social-link">
+            <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-discord"></i></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-vk" aria-hidden="true"></i></a></li>
+          </ul>
+          </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Massa Hendrerit Bibendum</h4>
+        <div class="work-list">
+          <a href="#">Tincidunt vel vulputate egestas</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Leo sed porttitor accumsan arcu</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Aenean ac urna et leo posuere</a>
+        </div>
+        <div class="work-list">
+          <a href="#">Pretium suspendisse ac elit ut</a>
+        </div>
+      </div>
+      <div class="col span_1_of_3">
+        <h4>Etiam Auctor Dignissim</h4>
+        <p>Leo integer sem nisl mollis ut ornare eu lobortis eget ante mauris tempor.</p>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+     <a href="#" class="btn "> Submit</a>
+      </div>
+    </div>
+  </section>
+  <!-- about area -->
+  <!-- footer area -->
+  <section id="footer"> 
+    <div class="row">
+      <div class="footer-left">
+        Copyright © 2020 - All Rights Reserved - Domain Name
+      </div>
+      <div class="footer-right">
+        Template by OS Templates
+      </div>
+    </div>
+  </section>
+	<script src="resources/js/main.js"></script>
+	</body>
+</html>
